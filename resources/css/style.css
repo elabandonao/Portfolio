@@ -349,21 +349,21 @@ body {
     }
 
     #about-me {
-        width: 100%;
+        width: 90%;
         position: relative;
         background-color: black;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         min-height: calc(100vh - 116px);
         padding: 20px 0;
+        margin: 0 auto;
     }
 
     #about-me img {
         width: 280px;
         height: 280px;
         border-radius: 10px;
-        margin-right: 20px;
     }
 
     #about-me .text {
@@ -371,6 +371,7 @@ body {
         text-align: left;
         font-size: 1.25rem;
         width: 45%;
+        margin: 0 2%;
     }
 
     #name {
@@ -381,7 +382,6 @@ body {
     }
 
     #desktop-img {
-        margin-right: 0;
-        margin-left: 20px;
+        display: block;
     }
 } 
